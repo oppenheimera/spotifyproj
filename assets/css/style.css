@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open sans', sans-serif;
+	margin: 0px;
+    color: #fff;
+}
+
+#background-overlay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #181818;
+    opacity: .5;
+}
+
+#profile {
+    background-color: #181818;
+    width: 400px;
+    height: 480px;
+    position: absolute;
+	top: 0;
+	left: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+#profile_pic {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    /*border-color: red;
+    border-style: outset;*/
+}
+
+/*title text size: 24px*/
+#name {
+    font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+    /*border-color: red;
+    border-style: outset;*/
+}
+
+/*subtitle text size: 20px*/
+#title {
+    font-size: 20px;
+    margin-top: 8px;
+    text-align: center;
+    /*border-color: red;
+    border-style: outset;*/
+}
+
+/*body text font size: 16px (default);*/
+#song_list {
+    margin: 16px;
+    /*border-color: red;
+    border-style: outset;*/
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+#menu {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 30px;
+}
+
+#menu .item{
+	display: inline-block;
+	margin-right: 5px;
+	padding: 0px 10px;
+	/*background-color: ;*/
+	height: 22px;
+	color: #fff;
+	font-size: 16px;
+}
+
+/*#logo img{
+	width: 75px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 20px;
+}*/
