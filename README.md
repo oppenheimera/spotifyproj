@@ -2,8 +2,8 @@
 A place for friends to share music that they're listening to, so long as they're listening to that music on Spotify.
 
 ## Name ideas:
-⋅⋅* SuperAwesome
-⋅⋅* Echo Chamber
+* SuperAwesome
+* Echo Chamber
 
 ## Milestones:
 1. built a pretty front-end.
